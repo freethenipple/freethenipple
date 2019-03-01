@@ -1,0 +1,43 @@
+@import '../../common/uikit/colors'
+
+.container
+  width: 400px
+  margin-left: 150px
+
+
+.content
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  width: 330px
+
+.title
+  font-size: 20px
+
+.img
+  display: block
+  max-width: 100px
+
+  margin-bottom: 15px
+  cursor: pointer
+
+.subtitle
+  font-size: 15px
+  margin-bottom: 50px
+  margin-top: 8px
+  color: color-text-seconady
+
+@media screen and (max-width: 1000px)
+  .container
+    margin-left: 30px
+
+
+@media screen and (max-width: 800px)
+  .container
+    margin: 0 auto 40px
+    width: 100%
+    padding: 0 20px
+    box-sizing: border-box
+  .subtitle
+    margin-bottom: 10px

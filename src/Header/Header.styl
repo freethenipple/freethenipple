@@ -1,0 +1,40 @@
+@import '../common/uikit/font'
+@import '../common/uikit/colors'
+
+.container
+  max-width: 1200px
+  margin: 0 auto
+  padding: 30px 40px 50px
+
+.content
+  display: flex
+  align-items: center
+
+.title
+  font(font-preset[headline], false, 30px, false)
+  color: color-text-primary
+
+  margin-left: 10px
+
+.subtitle
+  margin-top: 50px
+  margin-left: 60px
+
+  max-width: 500px
+  padding: 10px 20px
+
+  font(font-preset[subheader])
+  color: color-text-primary
+
+  border-left: 6px solid color-pink
+
+.href
+  color: color-blue
+  text-decoration: none
+
+@media screen and (max-width: 800px)
+  .subtitle
+    margin-left: 0
+    margin-top: 20px
+  .container
+    padding: 10px 10px 30px

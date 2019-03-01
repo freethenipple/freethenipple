@@ -1,0 +1,36 @@
+@import '../../common/uikit/colors'
+
+handlerSize = 12px
+imgPadding = 5px
+
+.container
+  position: absolute
+
+.content
+  position: relative
+  z-index: 2
+
+.handler
+  position: absolute
+  bottom: -13px
+  right: -13px
+  width: handlerSize
+  height: handlerSize
+
+  border-radius: 50%
+
+  background-color: color-blue
+
+  z-index: 3
+
+.box
+  padding: imgPadding
+  border: 3px dashed color-blue
+
+  position: absolute
+  top: -8px
+  left: -8px
+  z-index: 0
+
+.img
+  z-index: 1

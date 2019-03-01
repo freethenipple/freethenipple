@@ -1,0 +1,24 @@
+.container
+  display: flex
+  align-items: flex-start
+  justify-content: flex-start
+
+  width: 100%
+  padding-left: 180px
+  padding-top: 40px
+
+  box-sizing: border-box
+
+  margin-bottom: 40px
+
+@media screen and (max-width: 1000px)
+  .container
+    padding-left: 40px
+
+@media screen and (max-width: 800px)
+  .container
+    padding-left: 0px
+    justify-content: flex-start;
+    flex-direction: column-reverse;
+
+    padding-top: 10px
